@@ -1,0 +1,14 @@
+/* IE7 Only Fixes
+================================================== */
+
+.flexslider .slides img { margin-bottom: -54px; }
+ul.flex-direction-nav { margin-bottom: -54px; }
+.flex-caption { margin-bottom: -54px; }
+.ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited{ margin-bottom: -1px; padding-bottom: 0; }
+.ddsmoothmenu ul li ul li{ margin-bottom: -1px; padding-bottom: 0; }
+.bottomadjust { padding-bottom:10px; }
+.footer .widget_blogposts ul{ margin-bottom: 0px; }
+.footer .widget_portfolio ul { margin-bottom: -8px; }
+.blogimage { margin-bottom: 17px; }
+.blogimage .flexslider { margin-bottom: 57px; }
+.divide .rightlink{ margin-top: 11px; }
