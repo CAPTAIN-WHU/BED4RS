@@ -27,7 +27,7 @@
 	.header { padding-top: 50px; padding-bottom: 20px; }
 	.logo { float: left; margin-right: 20px; }
 	.logotext { float: left; font-family:Arial, Helvetica, sans-serif; font-size: 11px; color: #777; margin-top: 7px; }
-	.mainmenu { float: right; font-family:Arial, Helvetica, sans-serif; font-size: 12px; color: #999; margin-top: 11px; margin-bottom: -12px; }
+	.mainmenu { float: right; font-family:Arial, Helvetica, sans-serif; font-size: 12px; color: #999; margin-top: 12px; margin-bottom: 35px; }
 	.headerdivider { float: left; width: 100%; height: 1px; /*border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;*/ }
 
 /* Dividers */
@@ -201,12 +201,13 @@
 
 /* Mainmenu */	
 	
-	.ddsmoothmenu{ position: relative; float: right; font-family: Arial, Helvetica, sans-serif;  font-size: 12px; line-height: 12px; margin: 0; z-index: 99; }
+	.ddsmoothmenu{ position: relative; float: left; font-family: Arial, Helvetica, sans-serif;  font-size: 13px; line-height: 13px; margin: 0; z-index: 99; }
 	.ddsmoothmenu ul{ z-index: 100; margin: 0; padding: 0; list-style-type: none; }
 	.ddsmoothmenu ul ul{ padding-top: 0px; padding-bottom: 0px; border: 1px solid #ccc; margin-left: 13px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10); -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10); -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10); }
 	/*Top level list items*/
-	.ddsmoothmenu ul li{ position: relative; display: inline; float: left; line-height: 12px; background: transparent; }
-	.ddsmoothmenu ul li ul li{ padding: 0; margin: 0; }
+	.ddsmoothmenu ul li{ position: relative; display: inline; float: left; line-height: 13px; background: transparent; }
+	.ddsmoothmenu ul li ul li{ padding: 0px 0px; margin: 0px 0px;}
+	/* .ddsmoothmenu ul li ul li:hover{background-color: rgb(247, 247, 247)} */
 	.ddsmoothmenu ul ul ul{ border-bottom: 0; }
 	/*Top level menu link items style*/
 	.ddsmoothmenu ul li a{ display: block; padding-top: 0px; padding-bottom: 28px; color: #999; text-decoration: none; }
@@ -214,17 +215,17 @@
 	.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{ color: #999; padding-left: 35px; padding-right: 0px; font-weight: bold; }
 	.ddsmoothmenu ul li a:hover{ color: #000; }
 	.ddsmoothmenu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/ color: #000; }
-	.ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited{ background: #fff; color: #777; border: 0; padding-left: 20px;  font-weight: normal; font-size: 11px; }
+	.ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited{ background: #fff; color: #777; border: 0; padding: 0px 12px;  font-weight: normal; font-size: 11px; }
 	.ddsmoothmenu ul li ul li a:hover{ /*color: #000; background: #eee;*/ }
 	/*1st sub level menu*/
 	.ddsmoothmenu ul li ul{ position: absolute; left: 0; display: none; /*collapse all sub menus to begin with*/ visibility: hidden; }
 	/*Sub level menu list items (undo style from Top level List Items)*/
-	.ddsmoothmenu ul li ul li{ display: list-item; float: none; padding-bottom: 0px; margin-left: 0px;border-bottom: 1px solid #ddd; }
+	.ddsmoothmenu ul li ul li{ display: list-item; float: none; padding-bottom: 0px; margin-left: 0px;border-bottom: 0.5px solid #ddd; }
     .ddsmoothmenu ul li:last-child { border-bottom: 0; }
 	/*All subsequent sub menu levels vertical offset after 1st level sub menu */
 	.ddsmoothmenu ul li ul li ul{ top: 0; margin-left: 0px; margin-top: -10px; }
 	/* Sub level menu links style */
-	.ddsmoothmenu ul li ul li a{ width: 170px; /*width of sub menus*/ padding: 15px; margin: 0; border-top-width: 0; margin-right: -2px; }
+	.ddsmoothmenu ul li ul li a{ width: 105px; /*width of sub menus*/ padding: 0px 0px; margin: 0; border-top-width: 0; margin: 0px 0px; }
 	.ddsmoothmenu li li ul,
 	.ddsmoothmenu li li li ul { margin: 0 0 0 0; }
 	/* Holly Hack for IE \*/
@@ -318,6 +319,7 @@
 
 	.content { padding-top: 20px; }
 	.content.right { float: right; }
+	.content.center { float: inherit; }
 
 /* #Media Queries
 ================================================== */
@@ -447,11 +449,11 @@
 ================================================== */
 	
 	#mainmenu { visibility: visible; } 
-	#responsive-menu{ display: none; float: left; }
+	/* #responsive-menu{ display: none; float: left; } */
 
 	@media only screen and (max-width: 767px) {
-		#mainmenu { visibility: hidden; height: 0;} 
-		#responsive-menu { display: inline-block; width: 100%; margin-top: 13px; }			  
+		#mainmenu { visibility: visible; height: 0; width: 45%; margin-bottom: 5%;} 
+		/* #responsive-menu { display: inline-block; width:50%; margin-top: 13px; }			   */
 	}
 
 
