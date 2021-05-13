@@ -363,7 +363,7 @@
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		.mainmenu { float: left; width: 100%; }
-		.ddsmoothmenu ul {width: 345px;}
+		.ddsmoothmenu ul {width: 345px; margin-left: -20px;}
 		.slidertext h6, .slidertext h5, .slidertext h4, .slidertext h3, .slidertext h2, .slidertext h1 { margin-top: 20px; } 
 		.slidertext { margin-bottom: 20px; margin-top: 10px; height: auto; }
 		.teaser { margin-bottom: 20px; text-align: left; }
