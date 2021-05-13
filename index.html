@@ -86,8 +86,8 @@
 							<li style="width: 130px; text-align:center"><a style="font-size: 13.5px; font-weight: bold; padding:0px 15px">Datasets&nbsp;&nbsp;<span class="arrow-bottom"></span></a>
 								<ul class="tabs" style="width: 128px; margin-left: -1px;align-items: center;">  
 									<li style="background-color:#fff" id="menu-dota">      <a style="font-size: 13px" href="#description-dota">DOTA</a></li>
-									<li style="background-color:#fff" id="menu-aid">       <a style="font-size: 13px" href="#description-aid">AID</a></li>
 									<li style="background-color:#fff" id="menu-millionaid"><a style="font-size: 13px" href="#description-millionaid">Million-AID</a></li>
+									<li style="background-color:#fff" id="menu-aid">       <a style="font-size: 13px" href="#description-aid">AID</a></li>
 									<li style="background-color:#fff" id="menu-whurs19">   <a style="font-size: 13px" href="#description-whurs19">WHU-RS19</a></li>
 									<li style="background-color:#fff" id="menu-gid">       <a style="font-size: 13px" href="#description-gid">GID</a></li>
 									<li style="background-color:#fff" id="menu-gid">       <a style="font-size: 13px" href="#description-second">SECOND</a></li>
@@ -158,16 +158,6 @@
 			               </div>
 			            </div>
 
-						<div class="one_third teaser all-group photoshop-group">
-			                <a href="https://captain-whu.github.io/AID/" target="_blank" data-text="» Visit Project" class="hovering"><img src="images/dataset-thumbs/AID.png" alt="" class="scale-with-grid" /></a>
-			                <div class="pluswrap" style="padding-right: 0px;">
-			                    <!-- <a href="#" class="bigplus"></a> -->
-			                    <div class="topline"><a href="#">AID</a></div>
-			                    <div class="subline" style="width: 265px">Aerial Scene Classification</div>
-			                    <div class="subline" style="width: 265px">10k images (600 * 600), 30 classes.</div>
-			                </div>
-			            </div>
-
 						<div class="one_third lastcolumn teaser all-group concepts-group">
 			                <a href="https://captain-whu.github.io/DiRS/" target="_blank" data-text="» Visit Project" class="hovering"><img src="images/dataset-thumbs/Million-AID.png" alt="" class="scale-with-grid" /></a>
 			                <div class="pluswrap" style="padding-right: 0px;">
@@ -175,6 +165,16 @@
 			                    <div class="topline"><a href="#">Million-AID</a></div>
 			                    <div class="subline" style="width: 265px">Aerial Scene Classification</div>
 			                    <div class="subline" style="width: 265px">1 million images (100**2 ~ 30000**2), 51 classes.</div>
+			                </div>
+			            </div>
+
+						<div class="one_third teaser all-group photoshop-group">
+			                <a href="https://captain-whu.github.io/AID/" target="_blank" data-text="» Visit Project" class="hovering"><img src="images/dataset-thumbs/AID.png" alt="" class="scale-with-grid" /></a>
+			                <div class="pluswrap" style="padding-right: 0px;">
+			                    <!-- <a href="#" class="bigplus"></a> -->
+			                    <div class="topline"><a href="#">AID</a></div>
+			                    <div class="subline" style="width: 265px">Aerial Scene Classification</div>
+			                    <div class="subline" style="width: 265px">10k images (600 * 600), 30 classes.</div>
 			                </div>
 			            </div>
 
@@ -312,6 +312,52 @@
                     </div>
                 </li>
 
+				<li id="description-millionaid" class="clearfix" style="padding-top: 20px">
+                	<p style="text-align: justify;"><a href="https://captain-whu.github.io/DiRS/" target="_blank" class="hovering"><strong style="font-style: italic;color: rgb(255,0,78);text-decoration: underline;">Million-AID</strong></a> is a new large-scale benchmark dataset containing a million instances for RS scene classification. There are 51 semantic scene categories in Million-AID. And the scene categories are customized to match the land-use classification standards, which greatly enhance the practicability of the constructed Million-AID. Different form the existing scene classification datasets of which categories are organized with parallel or uncertain relationships, scene categories in Million-AID are organized with systematic relationship architecture, giving it superiority in management and scalability. Specifically, the scene categories in Million-AID are organized by the hierarchical category network of a three-level tree: 51 leaf nodes fall into 28 parent nodes at the second level which are grouped into 8 nodes at the first level, representing the 8 underlying scene categories of agriculture land, commercial land, industrial land, public service land, residential land, transportation land, unutilized land, and water area. The scene category network provides the dataset with excellent organization of relationship among different scene categories and also the property of scalability. The number of images in each scene category ranges from 2,000 to 45,000, endowing the dataset with the property of long tail distribution. Besides, Million-AID has superiorities over the existing scene classification datasets owing to its high spatial resolution, large scale, and global distribution. </p>
+			        
+		        	<div class="clearfix">
+		               <a href="https://captain-whu.github.io/DiRS/" target="_blank" data-text="» Visit Project" class="hovering"><img src="images/dataset-images/Million-AID.svg" alt="" class="scale-with-grid" /></a>
+		            </div>
+
+		            <div style="padding-top: 30px">
+			            <h5>Data Download</h5>
+			            <ul style="list-style-type: disc;">
+                            <li>
+					            <p> 
+					            	<a href="https://captain-whu.github.io/DiRS/" target="_blank" class="borderhover"><strong style="font-style: italic;color: rgb(255,0,78);text-decoration: underline;">Download Million-AID</strong></a>
+					            </p>
+				            </li>
+                        </ul>
+                    </div>
+
+                    <div style="padding-top: 10px">
+			            <h5>Citation</h5>
+			            <p style="margin-bottom: 10px">If you make use of Million-AID, please cite our following work:</p>
+			            <div style="background-color:#F5F5F5;">
+			            	<p style="margin-left: 10px;font-size: 13px">
+							@article{Long2021DiRS, <br>
+							title={On Creating Benchmark Dataset for Aerial Image Interpretation: Reviews, Guidances and Million-AID}, <br>
+							author={Yang Long and Gui-Song Xia and Shengyang Li and Wen Yang and Michael Ying Yang and Xiao Xiang Zhu and Liangpei Zhang and Deren Li}, <br>
+							journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, <br>
+							year={2021}, <br>
+							volume={14}, <br>
+							pages={4205-4230} <br>
+							}
+						    </p>
+			            </div>
+                    </div>
+
+					<div style="padding-top: 10px">
+			            <h5>Contact</h5>
+			            <p style="height: 5px">If you have any the problem or feedback in using Million-AID, please contact</p>
+                        <ul style="list-style-type: disc;">
+                            <li><strong>Yang Long</strong> at: <strong>longyang@whu.edu.cn</strong></li>
+                            <li><strong>Gui-Song Xia</strong> at: <strong>guisong.xia@whu.edu.cn</strong></li>
+                        </ul>
+                    	<div class="clear"></div>
+                    </div>
+                </li>
+
                 <li id="description-aid" class="clearfix" style="padding-top: 20px">
                 	<p style="text-align: justify;"><a href="https://captain-whu.github.io/AID/" target="_blank" class="hovering"><strong style="font-style: italic;color: rgb(255,0,78);text-decoration: underline;">AID</strong></a> is a large-scale aerial image dataset, by collecting sample images from Google Earth imagery. Note that although the Google Earth images are post-processed using RGB renderings from the original optical aerial images, it has proven that there is no significant difference between the Google Earth images with the real optical aerial images even in the pixel-level land use/cover mapping. Thus, the Google Earth images can also be used as aerial images for evaluating scene classification algorithms.</p>
 
@@ -357,52 +403,6 @@
 			            <p style="height: 5px">If you have any the problem or feedback in using AID, please contact</p>
                         <ul style="list-style-type: disc;">
                             <li><strong>Jingwen Hu</strong> at: <strong>hujingwen@whu.edu.cn</strong></li>
-                            <li><strong>Gui-Song Xia</strong> at: <strong>guisong.xia@whu.edu.cn</strong></li>
-                        </ul>
-                    	<div class="clear"></div>
-                    </div>
-                </li>
-				
-                <li id="description-millionaid" class="clearfix" style="padding-top: 20px">
-                	<p style="text-align: justify;"><a href="https://captain-whu.github.io/DiRS/" target="_blank" class="hovering"><strong style="font-style: italic;color: rgb(255,0,78);text-decoration: underline;">Million-AID</strong></a> is a new large-scale benchmark dataset containing a million instances for RS scene classification. There are 51 semantic scene categories in Million-AID. And the scene categories are customized to match the land-use classification standards, which greatly enhance the practicability of the constructed Million-AID. Different form the existing scene classification datasets of which categories are organized with parallel or uncertain relationships, scene categories in Million-AID are organized with systematic relationship architecture, giving it superiority in management and scalability. Specifically, the scene categories in Million-AID are organized by the hierarchical category network of a three-level tree: 51 leaf nodes fall into 28 parent nodes at the second level which are grouped into 8 nodes at the first level, representing the 8 underlying scene categories of agriculture land, commercial land, industrial land, public service land, residential land, transportation land, unutilized land, and water area. The scene category network provides the dataset with excellent organization of relationship among different scene categories and also the property of scalability. The number of images in each scene category ranges from 2,000 to 45,000, endowing the dataset with the property of long tail distribution. Besides, Million-AID has superiorities over the existing scene classification datasets owing to its high spatial resolution, large scale, and global distribution. </p>
-			        
-		        	<div class="clearfix">
-		               <a href="https://captain-whu.github.io/DiRS/" target="_blank" data-text="» Visit Project" class="hovering"><img src="images/dataset-images/Million-AID.svg" alt="" class="scale-with-grid" /></a>
-		            </div>
-
-		            <div style="padding-top: 30px">
-			            <h5>Data Download</h5>
-			            <ul style="list-style-type: disc;">
-                            <li>
-					            <p> 
-					            	<a href="https://captain-whu.github.io/DiRS/" target="_blank" class="borderhover"><strong style="font-style: italic;color: rgb(255,0,78);text-decoration: underline;">Download Million-AID</strong></a>
-					            </p>
-				            </li>
-                        </ul>
-                    </div>
-
-                    <div style="padding-top: 10px">
-			            <h5>Citation</h5>
-			            <p style="margin-bottom: 10px">If you make use of Million-AID, please cite our following work:</p>
-			            <div style="background-color:#F5F5F5;">
-			            	<p style="margin-left: 10px;font-size: 13px">
-							@article{Long2021DiRS, <br>
-							title={On Creating Benchmark Dataset for Aerial Image Interpretation: Reviews, Guidances and Million-AID}, <br>
-							author={Yang Long and Gui-Song Xia and Shengyang Li and Wen Yang and Michael Ying Yang and Xiao Xiang Zhu and Liangpei Zhang and Deren Li}, <br>
-							journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, <br>
-							year={2021}, <br>
-							volume={14}, <br>
-							pages={4205-4230} <br>
-							}
-						    </p>
-			            </div>
-                    </div>
-
-					<div style="padding-top: 10px">
-			            <h5>Contact</h5>
-			            <p style="height: 5px">If you have any the problem or feedback in using Million-AID, please contact</p>
-                        <ul style="list-style-type: disc;">
-                            <li><strong>Yang Long</strong> at: <strong>longyang@whu.edu.cn</strong></li>
                             <li><strong>Gui-Song Xia</strong> at: <strong>guisong.xia@whu.edu.cn</strong></li>
                         </ul>
                     	<div class="clear"></div>
