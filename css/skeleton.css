@@ -20,7 +20,7 @@
     .column.alpha, .columns.alpha               { margin-left: 0; }
     .column.omega, .columns.omega               { margin-right: 0; }
 
-    /* Base Grid */
+    /* Base Grid */              
     .container .one.column                      { width: 40px; }
     .container .two.columns                     { width: 100px; }
     .container .three.columns                   { width: 160px; }

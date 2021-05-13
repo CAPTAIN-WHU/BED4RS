@@ -153,7 +153,7 @@
 
 	.footerwrap { width: 1080px; left: 50%; margin-left: -540px; background: #151515; padding: 0; padding-top: 50px; padding-bottom: 50px; margin-bottom: 0; }
 	.footerwrap.full { width: 100%; left: 0; background: #151515; margin: 0; padding: 0; padding-top: 50px; padding-bottom: 50px; margin-bottom: 0; }
-	.subfooterwrap { width: 1080px; left: 50%; margin-left: -540px; background: #111; padding: 0; padding-top: 15px; padding-bottom: 15px; margin-bottom: 0; }
+	.subfooterwrap { width: 1080px; left: 50%; margin-left: -540px; background: rgb(235,235,235); padding: 0; padding-top: 15px; padding-bottom: 15px; margin-bottom: 0; }
 	.subfooterwrap.full { width: 100%; left: 0; background: #111; margin: 0; padding: 0; padding-top: 15px; padding-bottom: 15px; margin-bottom: 0; }
 	.footer { width: 960px; margin: 0 auto; color: #777; }
 	.subfooter { width: 960px; margin: 0 auto; color: #444; font-size: 11px; line-height: 30px; }
