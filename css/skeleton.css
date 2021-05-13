@@ -23,6 +23,7 @@
     /* Base Grid */              
     .container .one.column                      { width: 40px; }
     .container .two.columns                     { width: 100px; }
+    .container .twodotthree.columns              { width: 130px; } 
     .container .three.columns                   { width: 160px; }
     .container .four.columns                    { width: 220px; }
     .container .five.columns                    { width: 280px; }
@@ -78,6 +79,7 @@
 
         .container .one.column                      { width: 28px; }
         .container .two.columns                     { width: 76px; }
+        .container .twodotthree.columns             { width: 96px; }
         .container .three.columns                   { width: 124px; }
         .container .four.columns                    { width: 172px; }
         .container .five.columns                    { width: 220px; }
