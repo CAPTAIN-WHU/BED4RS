@@ -336,7 +336,8 @@
 		.dividerline { width: 748px; }
 		.dividerlinehalf { width: 364px; }
 		.footer, .subfooter { width: 768px; }
-		.teasers .topline, .teasers .subline { width: 115px; }
+		/* .teasers .topline, .teasers .subline { width: 115px; } */
+		.teasers .topline, .teasers .subline {width: inherit; padding-left: 10px;}
 		.teasers_large .topline, .teasers_large .subline { width: 307px; }
 		.widget_blogposts .postlink { width: 110px; }
 		.widget_blogposts .subline { width: 110px; }
@@ -370,9 +371,12 @@
 		.teaser img{ width: 420px; }
 		.portfolio_filter { margin-bottom: 20px; text-align: center; }
 		.portfolio .teaser { padding-bottom: 0px; }
-		.pluswrap {width: 398px; }
-		.pluswrap.half { width: 398px; }
-		.teasers .topline, .teasers .subline {width: 363px; }
+		/* .pluswrap {width: 398px; } */
+		.pluswrap {width: inherit; border: 0; padding: 10px 0px;}
+		/* .pluswrap.half { width: 398px; } */
+		.pluswrap.half { width: inherit; border: 0; padding: 10px 0px;}
+		/* .teasers .topline, .teasers .subline {width: 363px; } */
+		.teasers .topline, .teasers .subline {width: inherit; padding-left: 10px;}
 		.teasers_large .topline, .teasers_large .subline { width: 363px; }
 		.footer .widget { margin-bottom: 52px; }
 		.widget_blogposts .postlink { width: 360px; margin-top: 6px; }
@@ -421,16 +425,20 @@
 		.dividerline, .dividerlinehalf { width: 300px; }
 		.footer, .subfooter { width: 300px; }
 		.teasers img, .teasers_large img { width: 300px; }
-		.pluswrap {width: 278px; }
-		.pluswrap.half { width: 278px; }
-		.pluswrap .topline, .pluswrap .subline {width: 243px; }
+		/* .pluswrap {width: 278px; } */
+		.pluswrap {width: inherit; border: 0; padding: 10px 0px;}
+		/* .pluswrap.half { width: 278px; } */
+		.pluswrap {width: inherit; border: 0; padding: 10px 0px;}
+		/* .pluswrap .topline, .pluswrap .subline {width: 243px; } */
+		.pluswrap .topline, .pluswrap .subline {width: inherit; padding-left: 10px;}
 		.widget_blogposts .postlink { width: 240px; margin-top: 6px; }
 		.widget_blogposts .subline { width: 240px; }
 		.widget_blogposts li { background: #131313; }
 		.widget input[type="text"], .widget input[type="password"], .widget input[type="email"], .widget textarea, .widget select {width: 278px;}
 		.subfooter { text-align: center; }
 		.subfooter .socialtext { width: 320px; text-align: center; margin-right: 0; }
-		.subfooter .socialicons { width: 237px; }
+		/* .subfooter .socialicons { width: 237px; } */
+		.subfooter .socialicons { width: 46%; }
 		#respond textarea { width: 278px; max-width: 278px; }
 		#respond input { width: 278px; max-width: 278px; margin-right: 0; }	
 		#respond input.last { width: 278px; max-width: 278px; margin-right: 0; } 
