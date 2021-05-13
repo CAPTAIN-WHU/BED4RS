@@ -38,7 +38,7 @@
       }                                   \
     </style>';
                       
-    ref.parentNode.insertBefore(div,ref);
+    // ref.parentNode.insertBefore(div,ref);
     
     if ( options ) { 
       $.extend( settings, options );
